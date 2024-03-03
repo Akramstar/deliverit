@@ -139,6 +139,7 @@ main {
     top: 0;
     left: 0;
     transform: translateY(30%);
+    z-index: 10;
 
 }
 
@@ -146,17 +147,20 @@ main {
     top: 349px;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 10;
 
 }
 
 .section-2-img3 {
     top: 450px;
     right: 50px;
+    z-index: 10;
 }
 
 .sectsion-div-2 .section-bus {
     top: 22px;
     left: 20px; 
+    z-index: -10;
 }
 
 .section-kuzoc {
