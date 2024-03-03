@@ -308,3 +308,79 @@ footer::before {
   
   }
 
+/* Media Queries */
+
+@media screen and (max-width: 992px) {
+    .section-bus {
+        display: none;
+
+    }
+
+    .sectsion-div-2 {
+        position: static;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .sectsion-div-2 .section-bus,
+.section-2-img1,
+.section-2-img2,
+.section-2-img3
+{
+    position: static;
+    margin: 20px;
+    transform: none;
+}
+
+.section-kuzoc {
+    /* position: relative;
+      top: 80px; */
+      display: none;
+}
+
+.section-kuzoc-txt {
+    /* position: absolute;
+    top: 900px;
+    left:120;
+    color: white;
+    line-height: 25px; */
+    display: none;
+}
+    footer {
+        overflow: hidden;
+        height: 410px;
+        padding:5px;
+    }
+
+    .footer-right{
+        display: none;
+
+    }
+
+    footer::before {
+        overflow: hidden;
+    }
+
+    .nav-left div{
+        margin: 0;
+        padding: 0;
+    }
+    .nav-left{
+        margin: 0;
+    }
+    .nav-left a {
+        margin: 5px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .nav-left{
+        margin: 0;
+        display:block;
+    }
+    .nav-left div {
+        margin-bottom: 10px;
+    }
+    main{
+        padding: 10px;
+    }
+  }
