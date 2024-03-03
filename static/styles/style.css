@@ -217,6 +217,8 @@ footer{
     padding: 60px;
     justify-content: space-between;
     position: relative;
+    overflow: hidden;
+    height: 345px;
 }
 
 .section-3-3 {
@@ -235,7 +237,7 @@ footer{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 539px;
+    top: 150px;
 }
 
 .app-but {
@@ -275,10 +277,6 @@ footer{
     bottom: -66px;
 }
 
-footer {
-    overflow: hidden;
-    height: 700px;
-}
 
 .footer-items {
     margin: 3px;
@@ -298,15 +296,15 @@ footer::before {
   
     width: 130%;
   
-    height: 663px;
+    height: 605px;
   
     background-size: cover;
   
     left: -130px;
   
-    bottom: -91px;
+    bottom: -94px;
   
-    overflow-x: hidden;
+    
   
   }
 
