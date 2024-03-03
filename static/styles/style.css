@@ -26,6 +26,7 @@ nav {
 
 .nav-left  a {
     margin: 1.5em;
+    transition: all 0.5s;
 }
 
 .nav-right {
@@ -387,4 +388,9 @@ footer::before {
     main{
         padding: 10px;
     }
+  }
+
+  /*  Animation */
+  .nav-left a:hover {
+    color: blueviolet;
   }
